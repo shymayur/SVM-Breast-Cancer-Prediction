@@ -21,10 +21,10 @@ cells are not harmful or there is no cancer and 'Malignant' means that the patie
 cancer and the cells have a harmful effect.
 
 Columns & its Description:
-radius- Mean of distances from center to points on the perimeter 
-texture- Standard deviation of gray-scale values
-perimeter- Observed perimeter of the lump
-area- Observed area of lump
+1. radius- Mean of distances from center to points on the perimeter 
+2. texture- Standard deviation of gray-scale values
+3. perimeter- Observed perimeter of the lump
+4. area- Observed area of lump
 smoothness- Local variation in radius lengths
 compactness- perimeter^2 / area - 1.0
 concavity- Severity of concave portions of the contour
