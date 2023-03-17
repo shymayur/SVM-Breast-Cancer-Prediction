@@ -22,13 +22,13 @@ cancer and the cells have a harmful effect.
 
 Columns & its Description:
 radius- Mean of distances from center to points on the perimeter 
-texture- Standard deviation of gray-scale values 
-perimeter- Observed perimeter of the lump 
-area- Observed area of lump 
-smoothness- Local variation in radius lengths 
-compactness- perimeter^2 / area - 1.0 
+texture- Standard deviation of gray-scale values
+perimeter- Observed perimeter of the lump
+area- Observed area of lump
+smoothness- Local variation in radius lengths
+compactness- perimeter^2 / area - 1.0
 concavity- Severity of concave portions of the contour
-concave- points number of concave portions of the contour 
+concave- points number of concave portions of the contour
 symmetry- Lump symmetry
 fractal dimension- "coastline approximation" - 1
 Diagnosis- Whether the patient has cancer or not? ('Malignant','Benign')
@@ -36,9 +36,8 @@ Diagnosis- Whether the patient has cancer or not? ('Malignant','Benign')
 
 Scope:
 ● Analysing the available data and exploring relationships among given variables
-● Data Pre-processing 
-● Training SVM classifier to predict whether the patient has cancer or not 
-● Assess the correctness in classifying data with respect to efficiency and effectiveness of
-the SVM classifier in terms of accuracy, precision, sensitivity, specificity and AUC ROC
+● Data Pre-processing
+● Training SVM classifier to predict whether the patient has cancer or not
+● Assess the correctness in classifying data with respect to efficiency and effectiveness of the SVM classifier in terms of accuracy, precision, sensitivity, specificity and AUC ROC
 ● Tuning the hyperparameters of SVM Classifier provided by the scikit-learn library
 
