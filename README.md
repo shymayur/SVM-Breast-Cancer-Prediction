@@ -1,7 +1,6 @@
 # SVM-Breast-Cancer-Prediction
 It is the machine learning model using SVM, which predicts the Breast Cancer.
-.
-.
+
 Abstract:
 Breast cancer represents one of the diseases that make a high number of deaths every
 year. It is the most common type of all cancers and the main cause of women's deaths
